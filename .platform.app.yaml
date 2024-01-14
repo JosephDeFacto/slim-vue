@@ -1,0 +1,6 @@
+name: backend
+type: php:8.1
+
+hooks:
+  build: |
+    composer install --no-dev --optimize-autoloader
