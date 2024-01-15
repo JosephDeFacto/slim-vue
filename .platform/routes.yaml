@@ -1,4 +1,4 @@
-"https://{all}":
+"https://{api}":
   type: upstream
   upstream: "backend:http"
 
